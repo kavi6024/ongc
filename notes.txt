@@ -1,0 +1,15 @@
+superuser: themaster 1234
+
+so like, i have given you access to all of my files... this is the task i am giving to you
+
+my project has 4 models
+
+Admin -> Can control every other model (email, password)
+Company -> Can create Request and Query Model objects. Must be approved by Admin after being created. (email, password, approved)
+Request -> 1 Company to many Request relationship. (item, quantity, request_done)
+Query -> 1 Company to many Query relationship (issue, solved)
+
+Please do however you wish you want to. I want you to do a fully made django auth+model managing+website in top-class.
+
+Admin could be registered using Django's built-in superuser.
+Company can be registered by normal sign up, but must be approved later by Admin. Only then it can login.
