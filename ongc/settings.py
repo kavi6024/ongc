@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'ongc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ongc',
-        'USER': 'ongc',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'database_name',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': 'host_link',
+        'PORT': 'port_number',
     }
 }
 
