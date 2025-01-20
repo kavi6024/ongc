@@ -1,0 +1,6 @@
+ENGINE = 'django.db.backends.mysql'
+DATABASE = 'ongc'
+USERNAME = 'ongc'
+PASSWORD = ''
+HOST = 'localhost'
+PORT = '3306'

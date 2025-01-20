@@ -1,0 +1,10 @@
+Include/
+Lib/
+main/__pycache__/
+main/migrations/
+ongc/__pycache__/
+ongc/migrations/
+Scripts/
+templates/
+pyvenv.cfg
+media/
