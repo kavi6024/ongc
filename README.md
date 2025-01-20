@@ -1,4 +1,4 @@
-Update database settingss under ongc/ongc/settings.py
+Update database settings under ongc/ongc/settings.py
 
 python manage.py makemigrations
 
